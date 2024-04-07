@@ -4,6 +4,7 @@ import { LoginPage } from '../../../pages/SauceAppPages/loginPage';
 
 test("Login a new user with valid inputs @pomSauce", async ({ page }) => {
 
+
     const loginPage = new LoginPage(page);
 
     await loginPage.navigateToLandingPage();
